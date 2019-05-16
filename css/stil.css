@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:rgb(161, 88, 101);
+}
+
+
+
+#glava{
+	width:800px;
+	height:300px;
+	background-color:white;
+	border:10px groove brown;
+	margin-top:150px;
+	margin-left:100px;
+	float:left;
+}
+
+#glava2{
+	width:800px;
+	height:300px;
+	background-color:white;
+	float:right;
+	margin-right:100px;
+	margin-top:150px;
+	border:10px groove brown;
+}
+
+#just{
+	float:left;
+	font-size:100px;
+	font-family:"Bahnschrift SemiCondensed", Bahnschrift, serif;
+	margin-top:100px;
+	margin-left:400px:
+}
+
+#just2{
+	font-size:100px;
+	font-family:"Bahnschrift SemiCondensed", Bahnschrift, serif;
+	float:left;
+	margin-top:100px;
+}
+
+#logo{
+	margin-left:500px;
+}
+
+#logo2{
+	
+}
+
+#tla{
+	margin-top:325px;
+	height:181px;
+	width:100%;
+	float:left;
+	background-image:url("../slike/tla.png");
+}
+
+#slogan1{
+	text-align:center;
+	margin-top:10px;
+}
+
+#klop{
+	height:165px;
+	width:398px;
+	background-image:url("../slike/klop.png");
+	position:fixed;
+	margin:700px 800px;
+}
+
+#roza1{
+	width:182px;
+	height:320px;
+	background-image:url("../slike/roza.png");
+	position:fixed;
+	margin-top:520px;
+}
+
+#nonko{
+	width:309px;
+	height:600px;
+	background-image:url("../slike/nonko11.png");
+	margin-top:370px;
+	margin-left:150px;
+	position:fixed;
+}
+
+.text1{
+	font-size:17px;
+	font-family:"Bahnschrift SemiCondensed", Bahnschrift, serif;
+}

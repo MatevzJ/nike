@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sl" lang="sl">
+<head>
+	
+	<title>Vaja Nike</title>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="copyright" content="" />
+	<meta name="author" content="" />
+	<meta name="rating" content="general" />
+	<meta name="expires" content="Never" />
+	<meta name="revisit-after" content="30 Days" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	
+	<link rel="stylesheet" href="css/stil.css" type="text/css" media="all" />		
+	
+</head>
+<body onload="draw()">
+
+<div id="ozadje" width="100%" height="100%">
+	
+<div>
+
+<div id="glava">
+	<div id="just">
+		<a>JUST DO IT.<a>
+	</div>
+	
+	<div id="logo">	
+		<svg xmlns="http://www.w3.org/2000/svg"
+			width="300" height="300"		
+			viewBox="0 0 2272 1704">
+			<path id="Unnamed"
+			fill="black" stroke="black" stroke-width="1"
+				d="M 438.88,501.69
+				C 211.00,926.00 577.00,938.00 699.50,887.00
+				699.50,887.00 2113.73,513.09 2113.73,513.09
+				2113.73,513.09 608.00,1155.00 608.00,1155.00
+				469.33,1204.33 221.33,1256.67 162.00,1044.00M 162.25,1044.00
+				C 115.25,817.33 373.00,580.00 438.81,501.63" 
+			/>
+		</svg>
+	</div>
+	
+	<div id="slogan1">
+		<a class="text1">NIKE SLOGAN (narjen z svg)</a>
+	</div>
+</div>
+
+<div id="glava2">
+	<div id="just2">
+		<a>JUST DO IT.</a>
+	</div>	
+
+	<div id="logo2">
+	<canvas id="canvas" width="300" height="300"></canvas>
+
+	<script type="application/javascript" id="logoBEZ">
+		function draw() 
+		{
+			var canvas = document.getElementById("canvas");
+			var ctx = canvas.getContext("2d");
+			ctx.fillStyle = "black";
+			ctx.beginPath();
+ 
+			ctx.moveTo(162, 159);
+	
+			ctx.bezierCurveTo(118, 245, 218, 196, 294, 130);
+			ctx.bezierCurveTo(230, 176, 145, 198, 162, 159);
+	
+			ctx.fill();
+		}
+	</script>
+	<div id="slogan1">
+	<a class="text1">NIKE SLOGAN(narejen z Benzerjevo krivuljo)</a>
+	</div>
+	
+	</div>
+
+</div>
+
+<div id="klop">
+
+</div>
+
+<div id="roza1">
+
+</div>
+
+<div id="nonko">
+
+</div>
+
+<div id="tla">
+	
+</div>
+
+</body>
+</html>
